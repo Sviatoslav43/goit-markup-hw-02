@@ -8,7 +8,6 @@
     --secondary-txt-cl: #212121;
  
     /* background colors */
-    --main-background-color: #2196F3;
     --secondary-bg-cl: #2F303A;
     --third-party-bg: #F5F4FA;
     
@@ -17,7 +16,7 @@
 
 }
 body {
-    font-family: var(--main-fonts) sans-serif;
+    font-family: var(--main-fonts), sans-serif;
     color: var(--accent-txt-cl);
 }
 .logo {
@@ -25,7 +24,7 @@ body {
     text-decoration: none;
     font-size: 26px;
     color: var(--blue-color);
-    line-height: 100%;
+    line-height: 1.19;
 }
 
 .studio-header {
@@ -35,14 +34,13 @@ body {
     text-decoration: none;
     color: var(--accent-txt-cl);
     font-style: 500;
-    line-height: 1;
+    line-height: 1.14;
 }
 
 .link:hover,
 .link:focus {
     color: var(--blue-color);
-    cursor: pointer;
-    
+        
 }
 
 .list {
@@ -56,8 +54,7 @@ body {
 .slogan {
     font-size: 44px;
     font-weight: 900;
-    line-height: 1.16;
-    text-align: center;
+    line-height: 1.36;
     vertical-align: top;
     color: var(--white-clr);
 }
@@ -65,10 +62,11 @@ body {
     font-family: var(--main-fonts);
     font-weight: 700;
     font-size: 16px;
-    line-height: 1.6;
+    line-height: 1.87;
     background-color: var(--blue-color);
     color: var(--white-clr);
     cursor: pointer;
+   
     
 }
 .main-btn:hover,
@@ -78,13 +76,13 @@ body {
 /* Секция About */
 .tag-line {
     font-weight: 700;
-    
-    line-height: 1;
+    font-size: 14px;
+    line-height: 1.14;
     color:  var(--secondary-txt-cl);
 
 }
 .text-about {
-    line-height: 1.46;
+    line-height: 1.71;
     font-size: 14px;
     
 } 
@@ -92,7 +90,7 @@ body {
 .title-caption {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1;
+    line-height: 1.16;
     color:  var(--secondary-txt-cl);
     
 }
@@ -106,13 +104,13 @@ body {
 .member-name {
     font-weight: 500;
     font-size: 16px;
-    line-height: 1;
+    line-height: 1.18;
 
     color:  var(--secondary-txt-cl);
 }
 .member-job {
     font-size: 16px;
-    line-height: 1;
+    line-height: 1.18;
 }
 
 /* Сукция Footer */
@@ -126,7 +124,7 @@ body {
 .address-street {
     text-decoration: none;
     color: var(--white-clr);
-    line-height: 1.46;
+    line-height: 1.71;
     font-style: normal;
 }
 .address-street:hover,
@@ -135,7 +133,7 @@ body {
 }
 .link-footer {
     text-decoration: none;
-    line-height: 1.46;
+    line-height: 1.71;
     color: rgba(255, 255, 255, 0.6);
     font-style: normal;
 }
@@ -155,7 +153,7 @@ body {
 .btn-item {
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.39;
+    line-height: 1.62;
     background-color: #F5F4FA;
     color: var(--secondary-txt-cl);
     cursor: pointer;
@@ -172,11 +170,11 @@ body {
 .example-name {
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.71;
+    line-height: 2;
     color: var(--secondary-txt-cl);
 }
 .example-desc {
     font-size: 16px;
-    line-height: 1.6;
+    line-height: 1.87;
     color: var(--accent-txt-cl);
 }
