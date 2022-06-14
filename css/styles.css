@@ -18,7 +18,9 @@
 body {
     font-family: var(--main-fonts), sans-serif;
     color: var(--accent-txt-cl);
+    letter-spacing: 0.03em;
 }
+
 .logo {
     font-family: var(--secondary-fonts);
     text-decoration: none;
@@ -26,15 +28,19 @@ body {
     color: var(--blue-color);
     line-height: 1.19;
 }
+   
+
 
 .studio-header {
     color: #000000;
 }
 .link {
     text-decoration: none;
-    color: var(--accent-txt-cl);
-    font-style: 500;
+    color: var(--secondary-txt-cl);
+    font-weight: 500;
+    font-size: 14px;
     line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .link:hover,
@@ -46,6 +52,10 @@ body {
 .list {
     list-style-type: none;
 }
+.list-contact {
+    color: var(--accent-txt-cl);
+}
+
 /* Ceкия Hero */
 .hero-block {
     background-color: #2F303A;
@@ -57,6 +67,8 @@ body {
     line-height: 1.36;
     vertical-align: top;
     color: var(--white-clr);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
 }
 .main-btn {
     font-family: var(--main-fonts);
@@ -66,8 +78,7 @@ body {
     background-color: var(--blue-color);
     color: var(--white-clr);
     cursor: pointer;
-   
-    
+    letter-spacing: 0.06em;
 }
 .main-btn:hover,
 .main-btn:focus {
@@ -79,6 +90,7 @@ body {
     font-size: 14px;
     line-height: 1.14;
     color:  var(--secondary-txt-cl);
+    text-transform: uppercase;
 
 }
 .text-about {
@@ -105,7 +117,6 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
-
     color:  var(--secondary-txt-cl);
 }
 .member-job {
@@ -117,6 +128,7 @@ body {
 
 .footer-description {
     background-color: #2F303A;
+    font-style: normal;
 }
 .studio-footer {
     color: var(--white-clr);
@@ -151,12 +163,14 @@ body {
 }
 
 .btn-item {
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
     background-color: #F5F4FA;
     color: var(--secondary-txt-cl);
     cursor: pointer;
+    letter-spacing: 0.03em;
 }
 
 .btn-item:hover,
@@ -167,11 +181,17 @@ body {
 .portfolio-example {
    list-style: none;
 }
+.example-link {
+    text-decoration: none;
+    cursor: pointer;
+}
 .example-name {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     color: var(--secondary-txt-cl);
+    letter-spacing: 0.06em;
+    text-decoration: none;
 }
 .example-desc {
     font-size: 16px;
