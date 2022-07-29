@@ -110,8 +110,19 @@ body {
 .section-team {
     background-color: var(--third-party-bg);
 }
+
+.team-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: calc((-1 * 20px) / 2);
+}
+
 .member {
+    width: 270px;
     background-color: var(--white-clr);
+    flex-basis: calc((100% - 20px *3) / 3);
+    margin: calc(20px / 2);
 }
 .member-name {
     font-weight: 500;
